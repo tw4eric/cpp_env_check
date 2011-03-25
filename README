@@ -1,0 +1,38 @@
+Things You Will Need In Your Environment
+========================================
+
+0. git - distributed version control
+1. cmake - cross platform make
+2. make - GNU make
+3. googletest - http://code.google.com/p/googletest/ 
+4. googlemock - http://code.google.com/p/googlemock/
+5. Boost C++ library
+
+
+
+Steps To Verify Your Environment:
+================================
+
+1. Clone this github repo using the following command
+
+  git clone git://github.com/sriki77/cpp_env_check.git
+
+2. Go into the directory "cpp_env_check"
+
+3. Generate the make files using the command
+
+  cmake .
+
+4. Run the make files
+
+  make clean
+  make
+
+5. Run the tests
+
+  make test
+
+6. Run the coverage
+
+  make lcov
+============================X===========================	
